@@ -1,0 +1,22 @@
+
+.full-width-table {
+    width: 100vw;  
+}
+
+i{
+    color: #d9cd26;
+    padding: 10%;
+}
+button{
+    margin: 5px;    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    /* align-items: block; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}

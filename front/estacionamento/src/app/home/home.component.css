@@ -1,0 +1,30 @@
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../../assets/cidade2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+     /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+
+.principal{
+    flex: 1;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 3px 3px black;
+}
+.containerCard{
+    display: flex;
+}
+.card{
+    flex: 1;
+    margin : 2rem;
+    border: solid;
+    background-color: transparent;
+    color: white;
+    text-shadow: 3px 0px black;
+    
+
+}

@@ -1,0 +1,48 @@
+<div class="container">
+
+  <h1>Cadastro Cliente Período</h1>
+
+  <form [formGroup]="cadastro">
+
+    <br>
+    <mat-form-field appearance="outline" color="warn" required>
+      <mat-label>Nome</mat-label>
+      <input matInput required formControlName="nome">
+      <mat-icon matSuffix>face</mat-icon>
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline" color="warn">
+      <mat-label>Sobrenome</mat-label>
+      <input matInput formControlName="sobrenome">
+      <mat-icon matSuffix>face</mat-icon>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline" color="warn">
+      <mat-label>Data Nascimento</mat-label>
+      <input type="date" matInput formControlName="nascimento">
+      <mat-icon matSuffix>calendar_today</mat-icon>
+    </mat-form-field>
+
+    <br>
+
+    <mat-form-field appearance="outline" color="warn">
+      <mat-label>Placa</mat-label>
+      <input matInput formControlName="placa">
+      <mat-icon matSuffix>local_offer</mat-icon>
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline" color="warn">
+      <mat-label>Modelo</mat-label>
+      <input matInput formControlName="modelo">
+      <mat-icon matSuffix>local_offer</mat-icon>
+    </mat-form-field>
+
+    <br>
+    <button (click)="onCadastrar()" mat-raised-button color="primary">Cadastrar</button>
+    
+    <p>{{mensagem}}</p>
+  </form>
+
+</div>

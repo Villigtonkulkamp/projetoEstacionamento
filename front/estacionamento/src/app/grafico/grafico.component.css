@@ -1,0 +1,48 @@
+#canvas{
+    border: solid 1px;
+    width: 200px;
+    height:200px;
+    /* background-color: yellow; */
+}
+#canvas2{
+    border: solid 1px;
+    width: 200px;
+    height:200px;
+    /* background-color: tomato; */
+}
+#canvas3{
+    border: solid 1px;
+    width: 200px;
+    height:100px;
+    /* background-color: tomato; */
+}
+#canvas4{
+    border: solid 1px;
+    width: 200px;
+    height:100px;
+    /* background-color: tomato; */
+}
+
+.container{
+    padding-left: 25px;
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    /* background-color: yellowgreen;      */
+    justify-content: center;
+    align-items: block;
+    /* height: 100rem;    */
+    /*
+    flex-direction: row;
+    align-items: center;*/
+}
+.esquerda{
+    /* border: solid 3px; */
+    width: 50%;
+    /* background-color: turquoise; */
+}
+.direita{
+    /* border: solid 3px; */
+    width: 50%;
+    /* background-color: rgb(224, 64, 211); */
+}

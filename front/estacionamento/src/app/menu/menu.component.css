@@ -1,0 +1,14 @@
+.titulo{
+    flex: 2;
+    color: white;
+    font-size: 100 rem;
+    text-shadow: 3px 3px black;
+}
+.img{
+    flex: 1;
+}
+.mat-raised-button{
+    margin: 0.1rem;
+    /* background-color: #ab9a9a ; */
+ 
+}

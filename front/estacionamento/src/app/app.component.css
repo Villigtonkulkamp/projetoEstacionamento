@@ -1,0 +1,32 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 50px; }
+
+.container{
+   
+    width: 97.5vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.esquerda{
+    flex: 1;
+}
+.direita{
+    flex: 1;
+}
+.centro{
+    flex: 2;
+    /* display: inline-block; */
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+

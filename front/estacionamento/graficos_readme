@@ -1,0 +1,3 @@
+npm install fusioncharts angular-fusioncharts --save
+
+import { FusionChartsModule } from "angular-fusioncharts";
